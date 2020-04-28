@@ -176,3 +176,6 @@ cython_debug/
 
 # direnv
 .envrc
+
+# data
+data/

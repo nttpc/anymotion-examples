@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "anymotion-examples"
 version = "0.1.0"
-description = "AnyMotion Examples"
+description = "Example Code/Notebook to use AnyMotion"
 authors = ["Yusuke Kumihashi <y_kumiha@nttpc.co.jp>"]
 
 [tool.poetry.dependencies]
