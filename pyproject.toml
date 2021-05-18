@@ -5,9 +5,9 @@ description = "Example Code/Notebook to use AnyMotion"
 authors = ["Yusuke Kumihashi <y_kumiha@nttpc.co.jp>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-anymotion-sdk = "^1.0.0"
-jupyterlab = "^2.1.1"
+python = ">=3.6.2,<4"
+anymotion-sdk = "^1.2.4"
+jupyterlab = "^3.0.15"
 
 [tool.poetry.dev-dependencies]
 

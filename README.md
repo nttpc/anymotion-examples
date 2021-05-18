@@ -22,10 +22,18 @@ or
 poetry install
 ```
 
+## Preparation
+
+実行するためには、[AnyMotion Portal](https://portal.anymotion.jp/)から取得できる認証情報が必要になります。以下のように環境変数に設定することができます。
+
+```sh
+export ANYMOTION_CLIENT_ID=<your_client_id>
+export ANYMOTION_CLIENT_SECRET=<your_client_secret>
+```
+
 ## Run jupyter
 
-Jupyteを起動してノートブックを開きます。
-また、実行するためには、[AnyMotion Portal](https://portal.anymotion.jp/)から取得できる認証情報が必要になります。
+Jupyterを起動してノートブックを開きます。
 
 ```sh
 jupyter notebook
@@ -35,4 +43,10 @@ or
 
 ```sh
 jupyter lab
+```
+
+## Using Docker
+
+```sh
+docker compose up -d
 ```
