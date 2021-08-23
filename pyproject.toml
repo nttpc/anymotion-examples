@@ -7,7 +7,7 @@ authors = ["Yusuke Kumihashi <y_kumiha@nttpc.co.jp>"]
 [tool.poetry.dependencies]
 python = ">=3.6.2,<4"
 anymotion-sdk = "^1.2.4"
-jupyterlab = "^3.0.15"
+jupyterlab = "^3.0.17"
 
 [tool.poetry.dev-dependencies]
 
